@@ -1,0 +1,256 @@
+* {
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+}
+body{
+    background-color: rgb(235, 234, 234);
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar i {
+    margin-right: 10px;
+}
+.navbar img {
+    margin-right: 10px;
+}
+.search {
+    height: 45px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 8px;
+
+}
+.search input{
+    height: 93%;  
+    width: 90%;
+    background-color: rgb(238, 238, 238);
+    border: 0;
+    font-size: 1.1rem;
+}
+.search input:focus-visible{
+        outline: none;
+}
+
+.navicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+.login{
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+.login span{
+    font-size: 16px;
+
+}
+.cart{
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+.cart span{
+    font-size: 16px;
+}
+.seller{
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+.seller span{
+    font-size: 16px;
+}
+.navbar span {
+    font-weight: 500;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+    margin-inline:  auto;
+    align-items: center;
+    height: 170px;
+    width: 97%;
+    background-color: white;
+    margin-top: 4.4rem;
+    margin-bottom: 1rem;
+}
+.categorybox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 132px;
+    width: 200px;
+    font-size: .8rem;
+    font-weight: 550;
+}
+.categorybox span{
+    margin-top: 15px;
+}
+.categorybox img{
+    width: 45%;
+}
+.hero{
+    width: 97%;
+    margin-inline: auto;
+}
+.hero img{
+    width: 100%;
+}
+.section{
+    width: 97%;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: white;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    margin-top: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerbox{
+    height: 240px;
+    width: 240px;
+    text-align: center;
+    line-height: 1.6;
+}
+.section h1{
+    margin-left: 1rem;
+}
+.section {
+    position: relative;
+}
+.leftbutton{
+    width: 60px;
+    height: 100px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: #a1a1a1 2px 1px 4px 1px;
+    position: absolute;
+}
+.rightbutton{
+    right: 0px;
+    width: 60px;
+    height: 100px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: #a1a1a1 2px 1px 1px 0px;
+    position: absolute;
+}
+.containerbox img{
+   height: 65%;
+}
+.brand {
+    width: 97%;
+    margin-inline: auto;
+    margin-top: 3rem;
+}
+.brand h4{
+        margin-bottom: 1rem;
+        color: #565656;
+        margin-top: 1rem;
+}
+.brand p{
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+.brand span{
+    font-size: 14px;
+    color: #272727;
+}
+.destination p{
+    margin-top: 0;
+    
+}
+.destination {
+    margin-bottom: 2rem;
+}
+.excitingservice{
+    margin: 1rem 0;
+}
+.footerlinks {
+    width: 92%;
+    display: flex;
+    margin-inline: auto;
+    gap: 1.4rem;
+}
+.footer{
+    background-color: rgb(36, 36, 36);
+    padding: 1rem;
+    height: 40%;
+}
+.footerlinks .link{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 160px;
+}
+.footerlinks a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.footerlinks a:hover{
+    text-decoration: underline;
+}
+.footerlinks span{
+    color: #565656;
+    font-size: 14px;
+    margin: 1rem 0 1rem 0;
+}
+.footerlinks p{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.footerlinks .frightcontent{
+    width: 270px;
+}
+.hr{
+    height: 1px;
+    width: 100%;
+    background-color: #5e5e5e;
+}
+.vr{
+    height: 180px;
+    width: 1px;
+    background-color: #5e5e5e;
+}
+.footerend{
+    height: 90px;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
